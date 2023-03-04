@@ -1,28 +1,30 @@
 # General
-- Write paper
-- Run all the benchmarks on an actual k8 cluster
+- [ ] Write paper
+- [~] Run all the benchmarks on an actual k8 cluster
 
 # Benchmarks
-- Choose a (tf) model to benchmark
-    - Convert model to a tflite model
-    - different sized models
-- factor in model compression vs runtime
-- run x jobs at once, measure time, calc throughput
-- run benchmarks multiple times, compute avg
+- [~] Choose a (tf) model to benchmark
+    - [~] Convert model to a tflite model
+    - [x] different sized models
+- [~] factor in model compression vs runtime
+- [~] run x jobs at once, measure time, calc throughput
+- [x] run benchmarks multiple times, compute avg
 
 # Faasm
-- run with the chosen tflite model
-- try to figure out protofaaslets
+- [ ] run with the chosen tflite model
+- [x] "micro" benchmarks (timings of different parts)
+- [x] try to figure out protofaaslets
 
 
 # Kserve
-- Scale up the cpu usage
-- run with the chosen tf model
-- run my own benchmark as a job/task
+- [ ] Scale up the cpu usage
+- [x] run with the chosen tf model
+- [ ] run my own benchmark as a job/task
 
 # Knative
-- setup knative cluster to serve tflite predictions
-- benchmark it
+- [~] setup knative cluster to serve tflite predictions
+    - [ ] fix autoscaling
+- [x] benchmark it
 
 
 
